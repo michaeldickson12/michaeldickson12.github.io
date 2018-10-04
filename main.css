@@ -1,0 +1,49 @@
+
+body{background:navy;
+color: white; }
+
+
+h1{
+	color:white;
+	font-family: Permanenent Marker
+}
+
+body {
+	background-image: url("8.jpg");
+	background-size: 1500px;
+	padding-top: 
+
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
+	grid-auto-rows: auto;
+	grid-template-rows: none;
+}
+#name{
+	grid-column: 1/3;
+	text-align: center;
+	grid-row:1; 
+
+
+}
+
+Navigation Bar CSS code
+#sidebar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 10%;
+background-color: #34495e;
+height: 100%; /* Full height */
+position: fixed; /* Make it stick, even on scroll */
+overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+#sidebar li a {
+display: block;
+color: #fff;
+padding: 8px 16px;
+text-decoration: none;
+}
