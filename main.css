@@ -1,23 +1,25 @@
-
-body{background:navy;
-color: white; }
-
-
-h1{
-	color:white;
-	font-family: Permanenent Marker
+html {
+background-color: #9c0f5f;
+font-family: 'Comic Sans', sans-serif;w
 }
 
 body {
-	background-image: url("8.jpg");
-	background-size: 1500px;
-	padding-top: 
+color: #FFFFFF; 
+font-size: 20px
+
+}
+h1{
+	color: white;
+	font: 
+}
+body {
+	padding-top: 50px;
 
 }
 .grid-container{
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-gap: 20px;
+	grid-gap: 15px;
 	grid-auto-rows: auto;
 	grid-template-rows: none;
 }
@@ -30,20 +32,36 @@ body {
 }
 
 Navigation Bar CSS code
-#sidebar ul {
+
+#nav ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
-width: 10%;
+top: 0;
+left: 0;
+overflow: hidden;
 background-color: #34495e;
-height: 100%; /* Full height */
+height: 100%; /*delete for vertical bar*/
+/*width: 100%; Use for vertical bar */
 position: fixed; /* Make it stick, even on scroll */
-overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
-#sidebar li a {
+#nav li {
+height: 40px;
+line-height: 40px;
+float: left;/*delete for vertical bar*/
+
+}
+
+#nav li a {
 display: block;
 color: #fff;
 padding: 8px 16px;
 text-decoration: none;
+
 }
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+background-color: #111;
+}
+
